@@ -291,6 +291,21 @@ outline: none;
   background: #ff523b;
   color: #fff;
 }
+
+/* ------------ Single product detail ----------- */
+ .single-product{
+margin-top: 80px;
+} 
+.single-product .col-2{
+  padding: 20px;
+  
+}
+.single-product .col-2 img{
+padding: 0px;
+
+
+}
+
 /* ------ media query for menu---------- */
 @media only screen and (max-width:800px){
   nav ul{
