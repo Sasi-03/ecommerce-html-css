@@ -442,6 +442,25 @@ td img{
   height: 80px;
   margin-right: 10px;
 }
+
+.total-Price {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.total-Price table {
+border-top: 3px solid #ff523b;
+width: 100%;
+max-width: 380px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child{
+  text-align: right;
+}
+
+
 /* ------ media query for menu---------- */
 @media only screen and (max-width:800px) {
   nav ul {
@@ -487,5 +506,18 @@ td img{
     flex: 1 1 100%;
     text-align: center;
     /* center content */
+  }
+  .single-product .col-2{
+    padding: 20px 0;
+  }
+  .single-product h1{
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .single-product .row{
+    text-align: left;
+  }
+  .cart-info p{
+    display: none;
   }
 }
