@@ -403,6 +403,15 @@ select:focus {
       padding: 20px 0;
     }
 
+/* ------------ cart item ------------ */
+.cart-page{
+  margin: 80px auto;
+}
+ table{
+width: 100%;
+border-collapse: collapse;
+}
+
 /* ------ media query for menu---------- */
 @media only screen and (max-width:800px) {
   nav ul {
