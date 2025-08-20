@@ -399,9 +399,9 @@ select:focus {
     .single-product .row{
       text-align: left;
     }
-    .single-product col-2{
+    /* .single-product .col-2{
       padding: 20px 0;
-    }
+    } */
 
 /* ------------ cart item ------------ */
 .cart-page{
@@ -532,7 +532,9 @@ form a{
 }
 
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 /* ------ media query for menu---------- */
 @media only screen and (max-width:800px) {
