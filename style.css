@@ -459,6 +459,79 @@ td:last-child {
 th:last-child{
   text-align: right;
 }
+.account-page{
+  padding: 50px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.form-container{
+background: #fff;
+width: 300px;
+height: 400px;
+margin:auto;
+position: relative;
+padding: 20px 0;
+text-align: center;
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+overflow: hidden;
+}
+
+.form-btn span{
+  position: relative;
+  padding: 0 10px;
+  font-weight:bold ;
+  color: #555;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  }
+
+.form-btn{
+  display: inline-block;
+}
+.form-container form{
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  overflow: hidden;
+  transition: transform 1s;
+}
+form input{
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+form .btn{
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+form .btn:focus{outline: none;}
+#login{
+  left: -300px;
+}
+#register{
+  left: 0;
+}
+
+form a{
+  font-size: 12px;
+}
+
+#indicator{
+ 
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
+
+
 
 
 /* ------ media query for menu---------- */
@@ -521,3 +594,8 @@ th:last-child{
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+  .form-container form {
+    padding: auto;
+  }}
